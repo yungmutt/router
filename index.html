@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DARYA KALDOBTSAVA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+  <!-- pasek górny -->
+  <div class="container">
+      <nav class="navbar fixed-top" style="background-color: #00664d;">
+          <div class="container-fluid">
+              <a class="navbar-brand" style="color: aliceblue" href="#">Router</a>
+          </div>
+      </nav>
+  </div>
+
+  <!-- internet -->
+  <div class="table1" style="text-align: left">
+      <table class="table table-borderless" style="width: 400px; margin-left: 300px; margin-right: auto; margin-top: 70px">
+          <thead>
+          <tr class="table">
+              <th scope="col" style="color: white; background-color: #00664d">Internet</th>
+              <th scope="col" style="background-color: #00664d"> </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr style="background-color: lightgrey">
+              <th scope="row">Internet Status:</th>
+              <td>Connected</td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <!-- host network-->
+  <div class="table2" style="text-align: left">
+      <table class="table table-borderless" style="width: 700px; margin-left: 300px; margin-right: auto; margin-top: 20px">
+          <thead>
+          <tr class="table">
+              <th scope="col" style="color: white; background-color: #00664d">Host Network</th>
+              <th scope="col" style="background-color: #00664d"> </th>
+              <th scope="col" style="background-color: #00664d"> </th>
+              <th scope="col" style="background-color: #00664d"> </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr style="background-color: lightgrey">
+              <th scope="row" style="color: seagreen">2.4GHz Wireless</th>
+              <td> </td>
+              <th scope="row" style="color: seagreen">5GHz Wireless</th>
+              <td> </td>
+          </tr>
+          <tr style="background-color: lightgrey">
+              <td>SSID:</td>
+              <td>TP-Link_D2D4</td>
+              <td>SSID:</td>
+              <td>TP-Link_D2D3_5G</td>
+          </tr>
+          <tr style="background-color: lightgrey">
+              <td>Signal:</td>
+              <td>Medium</td>
+              <td>Signal:</td>
+              <td>Low</td>
+          </tr>
+          <tr style="background-color: lightgrey">
+              <td>MAC Address:</td>
+              <td>E8-DE-27-2A-D2-D4</td>
+              <td>MAC Address:</td>
+              <td>E8-DE-27-2A-D2-D3</td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <!-- range extender-->
+  <div class="table3" style="text-align: left">
+      <table class="table table-borderless" style="width: 1000px; margin-left: 300px; margin-right: auto; margin-top: 20px">
+          <thead>
+          <tr class="table">
+              <th scope="col" style="color: white; background-color: #00664d">Range Extender</th>
+              <th scope="col" style="background-color: #00664d"> </th>
+              <th scope="col" style="background-color: #00664d"> </th>
+              <th scope="col" style="background-color: #00664d"> </th>
+              <th scope="col" style="background-color: #00664d"> </th>
+              <th scope="col" style="background-color: #00664d"> </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr style="background-color: lightgrey">
+              <th scope="row" style="color: seagreen">2.4GHz Wireless</th>
+              <td> </td>
+              <th scope="row" style="color: seagreen">5GHz Wireless</th>
+              <td> </td>
+              <th scope="row" style="color: seagreen">Wired</th>
+              <td> </td>
+          </tr>
+          <tr style="background-color: lightgrey">
+              <td>SSID:</td>
+              <td>TP-LINK_Extender_2.4GHz</td>
+              <td>SSID:</td>
+              <td>TTP-LINK_Extender_5GHz</td>
+              <td>DHCP Server</td>
+              <td>
+                  <select>
+                      <option selected value="base">
+                          Auto (Off)
+                      </option>
+                      <option>
+                          OFF
+                      </option>
+                      <option>
+                          ON
+                      </option>
+                  </select>
+              </td>
+          </tr>
+          <tr style="background-color: lightgrey">
+              <td>Channel:</td>
+              <td>11</td>
+              <td>Channel:</td>
+              <td>36</td>
+              <td>IP Address:</td>
+              <td>192.168.0.100</td>
+          </tr>
+          <tr style="background-color: lightgrey">
+              <td>MAC Address:</td>
+              <td>E8-DE-27-2A-D2-D4</td>
+              <td>MAC Address:</td>
+              <td>E8-DE-27-2A-D2-D3</td>
+              <td>Type:</td>
+              <td>
+                  <select>
+                      <option selected value="base">
+                          Dynamic IP
+                      </option>
+                      <option>
+                          Static IP
+                      </option>
+                  </select>
+              </td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <!-- pzyciski -->
+  <div class="button">
+      <a class="btn btn-primary" href="index.html" role="button style=" style="background-color: #00664d; font-size: 22px; position: absolute; width: 150px; height: 50px; left: 35px; top: 70px">
+          Status
+      </a>
+      <a class="btn btn-primary" href="wireless.html" role="button style=" style="background-color: #00664d; font-size: 22px; position: absolute; width: 150px; height: 50px; left: 35px; top: 130px">
+          Wireless
+      </a>
+      <a class="btn btn-primary" href="network.html" role="button style=" style="background-color: #00664d; font-size: 22px; position: absolute; width: 150px; height: 50px; left: 35px; top: 190px">
+          Network
+      </a>
+      <a class="btn btn-primary" href="systemtoolz.html" role="button style=" style="background-color: #00664d; font-size: 20px; position: absolute; width: 150px; height: 50px; left: 35px; top: 250px">
+          System Tools
+      </a>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
